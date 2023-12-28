@@ -15,6 +15,6 @@ use App\http\Controllers\HomeController;
 |
 */
 
-Route::get('/',[HomeController::class, 'meuloro']) -> name ('home');
+Route::get('/',[HomeController::class, 'formulario']) -> name ('home');
 
 Route::post('/formulario/store',[HomeController::class, 'store'])->name('formulario.store');
