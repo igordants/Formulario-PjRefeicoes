@@ -406,7 +406,7 @@
       <div class="max-w-md mx-auto bg-white p-8 rounded-md shadow-md">
           <label for="">Conte um pouco mais da sua experiência:</label>
           <textarea class="h-48 w-96 shadow-lg shadow-red-500/50 bg-orange-300 rounded-md border-4" id="experiencia"
-              name="experiencia"></textarea>
+              name="experience"></textarea>
       </div>
       <div class="max-w-md mx-auto bg-white p-8 rounded-md shadow-md">
           <h6>
