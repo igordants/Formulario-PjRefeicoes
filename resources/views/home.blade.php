@@ -6,11 +6,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Forumlário</title>
   </head>
-  <body class="bg-[url('img/1.jpg')]">
+  <body class="bg-[url('assets/img/1.jpg')]">
     <!--Select para seleção da Unidade-->
     <div class="max-w-md mx-auto bg-white p-8 rounded-md shadow-md">
       <h3 class="text-center">Forumlário Pj Refeições</h3>
-      <img class=" h-52 w-52 rounded-full mx-24" src="img/2.png" alt="LogoPJ">
+      <img class=" h-52 w-52 rounded-full mx-24" src="assets/img/2.png" alt="LogoPJ">
     </div>
     <div class="max-w-md mx-auto bg-white p-8 rounded-md shadow-md">
       <label for="categoria">Escolha uma Categoria:</label>
@@ -675,10 +675,9 @@
     <h6>
       <span class="shadow-red-500/50">Obrigado por dedicar seu tempo a essa pesquisa, estamos sempre visando melhorar os nossos serviços!</span>
     </h6>
+    <button class="bg-orange-200 rounded-md w-14 hover:bg-orange-600 active:bg-orange-700 focus:outline-none focus:ring focus:ring-orange-300">Enviar</button>
   </div>
   <div>
-    
-    
   </div>
   </body>
   <script src="{{ asset('assets/js/main.js') }}"></script>
