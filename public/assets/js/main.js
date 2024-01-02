@@ -12,37 +12,37 @@ function carregarSubcategorias() {
 
     // Lógica para carregar opções do segundo select com base na escolha do primeiro
     if (categoriaSelecionada === 'RioGrandeDoNorte') {
-      criarOpcao(subcategoriaSelect, 'filialRN1', 'Refeitório Matriz Natal - RN');
-      criarOpcao(subcategoriaSelect, 'filialRN2', 'Refeitório SAMU Natal - RN');
-      criarOpcao(subcategoriaSelect, 'filialRN3', 'Refeitório RENNER Natal - RN');
-      criarOpcao(subcategoriaSelect, 'filialRN4', 'Refeitório Mat. Divino Amor Natal - RN');
-      criarOpcao(subcategoriaSelect, 'filialRN5', 'Refeitório João Machado Natal - RN');
-      criarOpcao(subcategoriaSelect, 'filialRN6', 'Refeitório UPA Parnamirim - RN');
-      criarOpcao(subcategoriaSelect, 'filialRN7', 'Refeitório Hosp. Márcio Marinho Pirangi Natal - RN');
-      criarOpcao(subcategoriaSelect, 'filialRN8', 'Refeitório Copagás Extremoz - RN');
+      criarOpcao(subcategoriaSelect, 'Refeitório Matriz', 'Refeitório Matriz Natal - RN');
+      criarOpcao(subcategoriaSelect, 'SAMU', 'Refeitório SAMU Natal - RN');
+      criarOpcao(subcategoriaSelect, 'Renner', 'Refeitório RENNER Natal - RN');
+      criarOpcao(subcategoriaSelect, 'Nat. Divino Amor', 'Refeitório Mat. Divino Amor Natal - RN');
+      criarOpcao(subcategoriaSelect, 'João Machado', 'Refeitório João Machado Natal - RN');
+      criarOpcao(subcategoriaSelect, 'UPA Parnamirim', 'Refeitório UPA Parnamirim - RN');
+      criarOpcao(subcategoriaSelect, 'Márcio Marinho Pirangi', 'Refeitório Hosp. Márcio Marinho Pirangi Natal - RN');
+      criarOpcao(subcategoriaSelect, 'Copagás Extremoz', 'Refeitório Copagás Extremoz - RN');
     } else if (categoriaSelecionada === 'RioDeJaneiro') {
-      criarOpcao(subcategoriaSelect, 'filialRJ1', 'Refeitório Hosp. Rocha Faria - RJ');
-      criarOpcao(subcategoriaSelect, 'filialRJ2', 'Refeitório Hosp. Munir Rafull - RJ');
-      criarOpcao(subcategoriaSelect, 'filialRJ3', 'Refeitório Hosp. S.João Batista - RJ');
-      criarOpcao(subcategoriaSelect, 'filialRJ4', 'Refeitório Hosp. Brasilate - RJ');
+      criarOpcao(subcategoriaSelect, 'Rocha Faria', 'Refeitório Hosp. Rocha Faria - RJ');
+      criarOpcao(subcategoriaSelect, 'Munir Rafull', 'Refeitório Hosp. Munir Rafull - RJ');
+      criarOpcao(subcategoriaSelect, 'S. joão batista', 'Refeitório Hosp. S.João Batista - RJ');
+      criarOpcao(subcategoriaSelect, 'Hosp. Brasilata', 'Refeitório Hosp. Brasilata - RJ');
     } else if (categoriaSelecionada === 'Maranhão') {
-      criarOpcao(subcategoriaSelect, 'filialMA1', 'Refeitório Cenral São Luís - MA');
-      criarOpcao(subcategoriaSelect, 'filialMA2', 'Refeitório ILA São Luís - MA');
-      criarOpcao(subcategoriaSelect, 'filialMA3', 'Refeitório Paulo Freire São Luís - MA');
-      criarOpcao(subcategoriaSelect, 'filialMA4', 'Refeitório Sta Amélia São Luís - MA');
-      criarOpcao(subcategoriaSelect, 'filialMA5', 'Refeitório COLUN são Luís - MA');
+      criarOpcao(subcategoriaSelect, 'Central São Luís', 'Refeitório Cenral São Luís - MA');
+      criarOpcao(subcategoriaSelect, 'ILA São Luís', 'Refeitório ILA São Luís - MA');
+      criarOpcao(subcategoriaSelect, 'Refeitório Paulo Freire', 'Refeitório Paulo Freire São Luís - MA');
+      criarOpcao(subcategoriaSelect, 'Refeitório Sta Amélia São Luís', 'Refeitório Sta Amélia São Luís - MA');
+      criarOpcao(subcategoriaSelect, 'Refeitório COLUN São Luís', 'Refeitório COLUN são Luís - MA');
   }   else if (categoriaSelecionada === 'MinasGerais') {
-      criarOpcao(subcategoriaSelect, 'filialMG1', 'Refeitório Glória Uberlândia - MG');
-      criarOpcao(subcategoriaSelect, 'filialMG2', 'Refeitório Umuarama Uberlândia - MG');
-      criarOpcao(subcategoriaSelect, 'filialMG3', 'Refeitório Santa Mônica Uberlândia - MG');
+      criarOpcao(subcategoriaSelect, 'Refeitório Glória Uberlândia', 'Refeitório Glória Uberlândia - MG');
+      criarOpcao(subcategoriaSelect, 'Refeitório Umuarama Uberlândia', 'Refeitório Umuarama Uberlândia - MG');
+      criarOpcao(subcategoriaSelect, 'Refeitório Santa Mônica', 'Refeitório Santa Mônica Uberlândia - MG');
   } else if (categoriaSelecionada === 'Sergipe') {
-      criarOpcao(subcategoriaSelect, 'filialSE1', 'Refeitório Aracaju - SE');
+      criarOpcao(subcategoriaSelect, 'Refeitório Aracaju', 'Refeitório Aracaju - SE');
   } else if (categoriaSelecionada === 'Alagoas') {
-      criarOpcao(subcategoriaSelect, 'filialAL1', 'Refeitório HU Maceió - AL');
-      criarOpcao(subcategoriaSelect, 'filialAL2', 'Refeitório Rei Pelé Maceió - AL');
-      criarOpcao(subcategoriaSelect, 'filialAL3', 'Refeitório Teknosonda Maceió - AL');
+      criarOpcao(subcategoriaSelect, 'Refeitório HU Maceió', 'Refeitório HU Maceió - AL');
+      criarOpcao(subcategoriaSelect, 'Refeitório Rei Pelé Maceió', 'Refeitório Rei Pelé Maceió - AL');
+      criarOpcao(subcategoriaSelect, 'Refeitório Teknosonda Maceió', 'Refeitório Teknosonda Maceió - AL');
   } else if (categoriaSelecionada === 'Pernambuco'){
-      criarOpcao(subcategoriaSelect, 'filialPE1', 'Refeitório HC Recife - PE');
+      criarOpcao(subcategoriaSelect, 'Refeitório HC Recife', 'Refeitório HC Recife - PE');
   }
 }
   function criarOpcao(select, valor, texto) {
