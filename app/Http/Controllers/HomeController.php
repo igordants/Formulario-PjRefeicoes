@@ -4,8 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Auth\Events\Validated;
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 use App\Models\Form;
-use 
+
 
 class HomeController extends Controller
 {
@@ -31,8 +32,6 @@ class HomeController extends Controller
             'experience' =>'required',
         ]);
         Form::create($data);
-        Flash('success','Formulario Enviado Com Sucesso');
-        Redirect::back();
+        return redirect()->route('home')->with('success','Resposta enviada com sucesso');
     }
-
 }
