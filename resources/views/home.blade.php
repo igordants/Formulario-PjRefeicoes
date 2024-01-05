@@ -9,9 +9,11 @@
 </head>
 
 <body class="bg-[url('assets/img/1.jpg')]">
+    <div class="bg-green-500 flex justify-center">
     @if(Session::has('success'))
-        <p class="alert alert-info">{{ Session::get('success') }}</p>
+        <p class="alert alert-info ">{{ Session::get('success') }}</p>
     @endif
+    </div>
     <!--Select para seleção da Unidade-->
     <div class="max-w-md mx-auto bg-white p-8 rounded-md shadow-md">
         <h3 class="text-center">Forumlário Pj Refeições</h3>
